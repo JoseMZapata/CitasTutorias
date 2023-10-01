@@ -4,4 +4,24 @@
     --TercerColor:#84b6f4;
     --CuartoColor:#c4dafa;
     --QuintoColor:#fcffff;
+    --LetraSecundario:'Skranji', cursive;
+}
+body{
+    font-family: var(--LetraSecundario);
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+/*Los Media son para hacer la pagina web se adapte a diferentes resoluciones de pantalla*/
+@media(min-width:768px){
+
+}
+.margen{
+    margin: 0;
+}
+.padding{
+    padding: 0;
 }
