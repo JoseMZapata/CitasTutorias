@@ -4,10 +4,10 @@
     --TercerColor:#84b6f4;
     --CuartoColor:#c4dafa;
     --QuintoColor:#fcffff;
-    --LetraSecundario:'Skranji', cursive;
+    --LetraSecundaria:'Skranji', cursive;
 }
 body{
-    font-family: var(--LetraSecundario);
+    font-family: var(--LetraSecundaria);
 }
 img{
     max-width: 100%;
