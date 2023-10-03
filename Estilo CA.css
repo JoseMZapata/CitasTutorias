@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contenido {
+    margin: 5em auto;
+    width: 600px;
+    border: 5px solid #ddd;
+    padding: 1em;
+    box-shadow: -5px 3px 5px rgba(0,0,0,0.2);
+}
+
+.titulo {
+    text-align: center;
+    margin: 0.2em 0;
+    color: black;
+}
+
+.calendario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.day {
+    list-style: none;
+    text-align: right;
+    padding: 0.3em;
+    margin: 0.10em;
+    color: black;
+}
+
+.day-name {
+    background: #ddd;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.first-day{
+    grid-column: 5;
+}
+
+/* Estilos para el contenedor de la tabla */
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+  /* Estilos CSS para la tabla */
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #ddd;
+}
