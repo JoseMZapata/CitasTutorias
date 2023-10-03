@@ -1,0 +1,18 @@
+:root{
+    --ColorPrincipal:#005187;
+    --ColorSecundario:#4d82bc;
+    --TercerColor:#84b6f4;
+    --CuartoColor:#c4dafa;
+    --QuintoColor:#fcffff;
+    --LetraSecundaria:'Skranji', cursive;
+}
+img{
+    max-width: 100%;
+}
+
+@media(min-width:768px){
+    .Cursos{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
