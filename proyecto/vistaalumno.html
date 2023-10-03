@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--El preload nos ayuda a que el archivo que le estamos diciendo sea el primero que cargue-->
+    <link rel="preload" href="./css/vistaalumno.css" as="style">
+    <link rel="stylesheet" href="./css/vistaalumno.css">
+    <link rel="stylesheet" href="./css/normalice.css">
+</head>
+<body>
+    <header class="HeaderPrincipal">
+        <div><h2 class="HeaderPrincipalNombre">DateCorp</h2></div>
+        <div class="HeaderPrincipal--Navegacion">
+            <nav>
+                <a class="link1" href="">Home</a>
+                <a class="link1" href="">Configuraciones</a>
+                <a class="link1" href="">Perfil</a>
+            </nav>
+        </div>
+    </header>
+    <main class="ContenidoPrincipal">
+        <div class="Buscador">
+            <input class="BuscadorInformacion" type="search" placeholder="Busqueda">
+        </div>
+        <div class="Cursos"> 
+            <div>
+                <!--La etiqueta lazy nos ayuda a que cuando el usuario llegue a esa imagen es cuando se carga esa imagen-->
+                <!--Esto viene bien por la pagina por temas de optimizacion de recursos-->
+                <!--Osea que la pagina cargue mas rapido-->
+                <img loading="lazy" src="./img/imagenesvistaalumno/Curso1.jpg" alt="Curso 1">
+                <div class="cursosflex">
+                    <div>
+                        <h3>Aprender sobre el arte</h3>
+                    </div>
+                    <div class="BotonInscribirse">
+                        <button class="BotonInscribirseInput">Inscribirse</button>
+                    </div>
+                </div>
+               
+            </div>
+            <div>
+                <img loading="lazy" src="./img/imagenesvistaalumno/Imagen2.jpeg" alt="Curso 2">
+                <div class="cursosflex">
+                    <div>
+                        <h3>Calculo Diferencial</h3>        
+                    </div>
+                    <div class="BotonInscribirse">
+                        <button class="BotonInscribirseInput" >Inscribirse</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <img loading="lazy" src="./img/imagenesvistaalumno/Imagen3.jpeg" alt="Curso 3">
+                <div class="cursosflex">
+                    <div>
+                        <h3>Teoria sobre negocios</h3>
+                    </div>
+                    <div class="BotonInscribirse">
+                        <button class="BotonInscribirseInput">Inscribirse</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <img loading="lazy" src="./img/imagenesvistaalumno/Imagen4.jpeg" alt="Curso 4">
+                <div class="cursosflex">
+                    <div>
+                        <h3>Habilidades Culturales</h3>
+                    </div>
+                    <div class="BotonInscribirse">
+                        <button class="BotonInscribirseInput" >Inscribirse</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img loading="lazy" src="./img/imagenesvistaalumno/Curso5.jpg" alt="Curso 5">
+                <div class="cursosflex">
+                    <div>
+                        <h3>Historia de Mexico</h3>
+                    </div>
+                    <div class="BotonInscribirse">
+                        <button class="BotonInscribirseInput">Inscribirse</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <img loading="lazy" src="./img/imagenesvistaalumno/Imagen7.jpg" alt="Curso 6">
+                <div class="cursosflex">
+                    <div>
+                        <h3>Ingles V</h3>
+                    </div>
+                    <div class="BotonInscribirse">
+                        <button class="BotonInscribirseInput">Inscribirse</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <img loading="lazy" src="./img/imagenesvistaalumno/Curso8.jpg" alt="Curso 7">
+                <div class="cursosflex">
+                    <div>
+                        <h3>Arte Contemporaneo</h3>
+                    </div>
+                    <div class="BotonInscribirse">
+                        <button class="BotonInscribirseInput">Inscribirse</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <img loading="lazy" src="./img/imagenesvistaalumno/Imagen9.jpeg" alt="Curso 8">
+                <div class="cursosflex">
+                    <div>
+                        <h3>Quimica Analitica</h3>
+                    </div>
+                    <div class="BotonInscribirse">
+                        <button class="BotonInscribirseInput">Inscribirse</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <img loading="lazy" src="./img/imagenesvistaalumno/Imagen10.jpg" alt="Curso 9">
+                <div class="cursosflex">
+                    <div>
+                        <h3>Seguridad Industrial</h3>
+                    </div>
+                    <div class="BotonInscribirse">
+                        <button class="BotonInscribirseInput">Inscribirse</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+    <footer class="footerprincipal">
+        <div class="footerprincipaltitulo1"><h2 class="footerprincipaltitulo">Tu mejor lugar para aprender</h2></div>
+        <div class="listas">
+            <div>
+                <ul>
+                    <legend>Nosotros</legend>
+                        <li><a class="link1" href="">Acerca de nosotros</a></li>
+                        <li><a class="link1" href="">Nuestra Mision</a></li>
+                        <li><a class="link1" href="">Nuestro Alcance que hemos conseguido</a></li>
+                        <li><a class="link1" href="">Nuevas formas de aprender</a></li>
+                </ul>
+                
+            </div>
+            <div>
+                <ul>
+                    <legend>Redes Sociales</legend>
+                    <ul>
+                        <li><a class="link1" href="">Facebook</a></li>
+                        <li><a class="link1" href="">Twitter</a></li>
+                        <li><a class="link1" href="">Tik Tik</a></li>
+                    </ul>
+                    
+                    
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
