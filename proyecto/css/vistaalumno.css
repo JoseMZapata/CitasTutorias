@@ -12,14 +12,15 @@ img{
 
 
 .HeaderPrincipal{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
     background-color: var(--ColorSecundario);
     color: var(--QuintoColor);
     
 }
 .HeaderPrincipalNombre{
     margin: 15px;
+    width: 200px;
 }
 .ContenidoPrincipal{
     margin-block: 1rem;
@@ -48,6 +49,7 @@ img{
 .Buscador{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .BuscadorInformacion{
     width: 70%;
@@ -55,6 +57,7 @@ img{
 }
 .BotonInscribirseInput{
     width: 200px;
+    
 }
 
 .cursosflex{
@@ -65,13 +68,17 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-
+.BotonInscribirse a{
+    text-decoration: none;
+    color: #000000;
+}
 .footerprincipal{
     
     background-color: var(--ColorSecundario);
     color: var(--QuintoColor);
-   
+    list-style: none;
 }
 .footerprincipaltitulo1{
     margin: 15px;
@@ -79,10 +86,100 @@ img{
 .footerprincipaltitulo{
     text-align: center;
     margin: 15px;
+    
+}
+.lista{
+    list-style: none;
+    
+}
+.footerredessociales{
+    display: flex;
+    justify-content: center;
+}
+.DivisionFooterRedesSociales legend{
+    display: flex;
+    justify-content: center;
 }
 .listas{
     display: grid;
     grid-template-columns: 25% 25%;
     column-gap: 2rem;
     justify-content: center;
+}
+
+
+/*Pagina arte html*/
+@media(min-width:768px){
+    .ContenidoPrincipalArte1{
+        display: grid;
+        grid-template-columns: repeat(2,40% 60%);
+        gap: 1rem;
+        margin: 1rem;
+    }
+    .ContenidoPrincipalArte1--hijos--Profesor{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        text-align: center;
+    }
+    .ContenidoPrincipalArte1--hijos--CodigoAcceso{
+        text-align: center;
+        margin: 10px;
+        
+    }
+    .ContenidoPrincipalArte1--hijos--CodigoAcceso__Codigo{
+        width: 70%;
+    }
+    .ContenidoPrincipalArte1--hijos--Profesor__Titulo{
+        text-align: center;
+        margin: 0;
+    }
+    .ContenidoPrincipalArte1--hijos--Profesor__profesor{
+        text-align: left;
+        margin: 2px;
+    }
+}
+.BotonInscribirse__Arte{
+    width: 100%;
+}
+.BotonInscribirse__Arte a{
+    text-decoration: none;
+    color: #000000;
+}
+.bienvenido{
+    background-color: #33ff00;
+    color: var(--QuintoColor);
+    
+}
+/*Pagina Calculo Diferencial*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Curso Arte Alumno*/
+.TituloCursoAlumno{
+    background-color: #3360f3c0;
+    color: var(--QuintoColor);
+}
+@media(min-width:768px){
+    .ContenidoPrincipalCursoAlumno{
+        display: flex;
+        justify-content: space-between;
+    }
+    .barraslaterales{
+        flex-basis: calc(30% - 1rem);
+    }
+}
+.MensajesDelCurso{
+    background-color: #005187;
+    
 }

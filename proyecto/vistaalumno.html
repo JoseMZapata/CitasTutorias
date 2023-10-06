@@ -3,26 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cursos</title>
+    <meta name="description" content="Pagina sobre cursos">
     <!--El preload nos ayuda a que el archivo que le estamos diciendo sea el primero que cargue-->
     <link rel="preload" href="./css/vistaalumno.css" as="style">
     <link rel="stylesheet" href="./css/vistaalumno.css">
     <link rel="stylesheet" href="./css/normalice.css">
+    <!--El preload nos ayuda a que de igual manera que con el css pero ahora con las paginas web, este caso es la primera pagina que uno piensa que es la que va a usar el usuario-->
+    <link rel="prefetch" href="arte.html" as="Document">
+
 </head>
 <body>
     <header class="HeaderPrincipal">
-        <div><h2 class="HeaderPrincipalNombre">DateCorp</h2></div>
+        <div><h2 class="HeaderPrincipalNombre"><a href="vistaalumno.html"><img src="/img/imagenesvistaalumno/logo_png_blanco.png" alt=""></a></h2></div>
+        <div class="Buscador">
+            <input class="BuscadorInformacion" type="search" placeholder="Busqueda">
+        </div>
         <div class="HeaderPrincipal--Navegacion">
             <nav>
-                <a class="link1" href="">Home</a>
-                <a class="link1" href="">Configuraciones</a>
-                <a class="link1" href="">Perfil</a>
+                
+                <a class="link1" href="#"><img src="/img/imagenesvistaalumno/ProfileUser.png" alt=""></a>
             </nav>
         </div>
     </header>
     <main class="ContenidoPrincipal">
-        <div class="Buscador">
-            <input class="BuscadorInformacion" type="search" placeholder="Busqueda">
+        <div>
+            <h2>Cursos Disponibles</h2>
         </div>
         <div class="Cursos"> 
             <div>
@@ -35,7 +41,7 @@
                         <h3>Aprender sobre el arte</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput">Inscribirse</button>
+                        <button class="BotonInscribirseInput"><a href="arte.html">Inscribirse</a></button>
                     </div>
                 </div>
                
@@ -47,7 +53,7 @@
                         <h3>Calculo Diferencial</h3>        
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput" >Inscribirse</button>
+                        <button class="BotonInscribirseInput" ><a href="calculodiferencial.html">Inscribirse</a></button>
                     </div>
                 </div>
                 
@@ -59,7 +65,7 @@
                         <h3>Teoria sobre negocios</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput">Inscribirse</button>
+                        <button class="BotonInscribirseInput"><a href="#">Inscribirse</a></button>
                     </div>
                 </div>
                 
@@ -71,7 +77,7 @@
                         <h3>Habilidades Culturales</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput" >Inscribirse</button>
+                        <button class="BotonInscribirseInput" ><a href="#">Inscribirse</a></button>
                     </div>
                 </div>
             </div>
@@ -82,7 +88,7 @@
                         <h3>Historia de Mexico</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput">Inscribirse</button>
+                        <button class="BotonInscribirseInput"><a href="#">Inscribirse</a></button>
                     </div>
                 </div>
                 
@@ -94,7 +100,7 @@
                         <h3>Ingles V</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput">Inscribirse</button>
+                        <button class="BotonInscribirseInput"><a href="#">Inscribirse</a></button>
                     </div>
                 </div>
                 
@@ -106,7 +112,7 @@
                         <h3>Arte Contemporaneo</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput">Inscribirse</button>
+                        <button class="BotonInscribirseInput"><a href="#">Inscribirse</a></button>
                     </div>
                 </div>
                 
@@ -118,7 +124,7 @@
                         <h3>Quimica Analitica</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput">Inscribirse</button>
+                        <button class="BotonInscribirseInput"><a href="#">Inscribirse</a></button>
                     </div>
                 </div>
                 
@@ -130,7 +136,7 @@
                         <h3>Seguridad Industrial</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput">Inscribirse</button>
+                        <button class="BotonInscribirseInput"><a href="#">Inscribirse</a></button>
                     </div>
                 </div>
                 
@@ -139,31 +145,25 @@
     </main>
 
     <footer class="footerprincipal">
-        <div class="footerprincipaltitulo1"><h2 class="footerprincipaltitulo">Tu mejor lugar para aprender</h2></div>
+        
         <div class="listas">
             <div>
                 <ul>
-                    <legend>Nosotros</legend>
-                        <li><a class="link1" href="">Acerca de nosotros</a></li>
-                        <li><a class="link1" href="">Nuestra Mision</a></li>
-                        <li><a class="link1" href="">Nuestro Alcance que hemos conseguido</a></li>
-                        <li><a class="link1" href="">Nuevas formas de aprender</a></li>
+                    <legend>Informacion</legend>
+                        <li class="lista"><a class="link1" href="">Acerca de nosotros</a></li>
+                        <li class="lista"><a class="link1" href="">Nuevas formas de aprender</a></li>
                 </ul>
                 
             </div>
-            <div>
-                <ul>
-                    <legend>Redes Sociales</legend>
-                    <ul>
-                        <li><a class="link1" href="">Facebook</a></li>
-                        <li><a class="link1" href="">Twitter</a></li>
-                        <li><a class="link1" href="">Tik Tik</a></li>
-                    </ul>
+            <div class="DivisionFooterRedesSociales">
+                <legend>Redes Sociales</legend>
+                <ul class="footerredessociales">
                     
+                    <li class="lista"><a class="link1" href=""><img src="../img/imagenesvistaalumno/IconoFacebook.png" alt=""></a></li>
                     
+                    <li class="lista"><a class="link1" href=""><img src="../img/imagenesvistaalumno/IconoTwitter.png" alt=""></a></li>
                     
                 </ul>
-                
             </div>
         </div>
     </footer>
