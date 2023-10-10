@@ -6,13 +6,24 @@ body {
 }
 
 header {
-    background-color: #3d4c63;
+    background-color: #005187;
     color: white;
     text-align: center;
     padding: 20px 0;
 }
-
-.container {
+img{
+    max-width: 100%;
+}
+.HeaderVistaProfile{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.HeaderVistaProfileTitulo{
+    grid-column: 2/3;
+    text-align: center;
+    justify-content: center;
+}
+.contenedor {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
