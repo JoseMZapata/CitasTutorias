@@ -14,6 +14,7 @@ body{
 }
 img{
     max-width: 100%;
+    border-radius: 5px;
 }
 .HeaderPrincipal{
     display: block;
@@ -22,6 +23,34 @@ img{
 .HeaderPrincipal--logo img{
     width: 250px;
     
+}
+
+.Buscador{
+    padding: 5px;
+    
+}
+.Buscador input{
+    font-size: 18px;
+    padding: 0 20px;
+    color: #000000;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.botonbusqueda{
+    background-color: red;
+    width: 30px;
+    height: 32px;
+    top: 0;
+    right: 0;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.fa-search{
+    margin: 5px;
+    color: white;
 }
 .HeaderPrincipal--Navegacion img{
     width: 100px;
@@ -34,9 +63,11 @@ img{
         color: var(--QuintoColor);
     }   
     .HeaderPrincipal--logo img{
-        width: 300px;
-        padding-top: 10px;
+        width: 200px;
+        padding: 12px 20px;
+        
     }
+    
 }
 
 .ContenidoPrincipal{
@@ -75,9 +106,13 @@ img{
 
 .BotonInscribirseInput{
     width: 200px;
-    background-color: var(--ColorSecundario);
+    background-color: var(--ColorPrincipal);
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+.BotonInscribirseInput:hover{
+    background-color: #00C3FF;
 }
 .Titulo{
     text-align: center;
@@ -126,12 +161,20 @@ img{
     padding: 80px 0;
 }
 .footer-row{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-rows: repeat(3,10rem);
+    gap: 30px;
+    justify-content: center;
+}
+@media(min-width:732px){
+    .footer-row{
+        display: flex;
+    }
 }
 .footer-links{
-    width: 25%;
+    width: 100%;
     padding: 0;
+
     
 }
 .footer-links h4{
@@ -180,6 +223,7 @@ img{
         grid-template-columns: repeat(2,40% 60%);
         gap: 1rem;
         margin: 1rem;
+        text-align: left;
     }
     .ContenidoPrincipalArte1--hijos--Profesor{
         display: grid;
@@ -191,9 +235,7 @@ img{
         margin: 10px;
         
     }
-    .ContenidoPrincipalArte1--hijos--CodigoAcceso__Codigo{
-        width: 70%;
-    }
+    
     .ContenidoPrincipalArte1--hijos--Profesor__Titulo{
         text-align: center;
         margin: 0;
@@ -203,18 +245,45 @@ img{
         margin: 2px;
     }
 }
+
 .BotonInscribirse__Arte{
     width: 100%;
+    background-color: var(--ColorPrincipal);
+    
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.BotonInscribirse__Arte:hover{
+    background-color:#00C3FF ;
 }
 .BotonInscribirse__Arte a{
     text-decoration: none;
-    color: #000000;
+    color: #FFFFFF;
 }
 .bienvenido{
     background-color: #33ff00;
     color: var(--QuintoColor);
     
 }
+.ContenidoPrincipalArte{
+    padding: 0 20px 20px 20px;
+}
+@media(max-width:731px){
+    .ContenidoPrincipalArte{
+        text-align: center;
+    }
+    .codigosdeacceso{
+        width: 99%;
+    }
+    .ContenidoPrincipalArte1--hijos--CodigoAcceso__Codigo{
+        width: 99%;
+    }
+    .botonenviarvalidacion{
+        width: 100%;
+    }
+}
+
 /*Pagina Calculo Diferencial*/
 
 

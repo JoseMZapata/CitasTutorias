@@ -19,9 +19,26 @@ img{
     grid-template-columns: repeat(2,1fr);
 }
 .HeaderVistaProfileTitulo{
+    
     grid-column: 2/3;
     text-align: center;
     justify-content: center;
+}
+.HeaderVistaProfileTitulo{
+    display: grid;
+    grid-template-rows: repeat(3,30%);
+    
+}
+.TituloPerfil{
+    grid-row: 2/3;
+}
+.HeaderVistaProfileImagen{
+    grid-row: 1/2;
+}
+@media(min-width:732px){
+    .HeaderVistaProfileImagen{
+        max-width: 70%;
+    }
 }
 .contenedor {
     display: flex;
