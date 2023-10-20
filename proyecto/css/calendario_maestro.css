@@ -7,28 +7,38 @@
       / auto 1fr auto;
     gap: 8px;
 }
+
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box; 
 }
-.cabeza{
-    grid-area: header;
-}
-
 .title {
     text-align: center;
     color: #444; 
 }
+.layout{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 5px;
+}
+
+
+.agenda{
+    grid-row: 2/3;
+}
+.agenda{
+    grid-row: 1/2;
+}
 .calendar {
     background: #ddd;
-    width: 80%;
+    width: 90%;
     max-width: 700px;
     margin: 1em auto;
     padding: .5em 0;
     box-shadow: 0 2px rgb(0,0,0,0.1);
     border-radius: 10px;
     margin-top: 0;
-    grid-area: body;
+    height: 23rem;
 }
 .calendar__info {
     display: -webkit-box;
@@ -43,8 +53,10 @@
     margin: 0.5em 0; /* Aumentar el espacio superior e inferior */
     
 }
-.calendar__prev, .calendar__next {
+/*---------------------------------------------------*/
+/* cambio de las flechas previo a la fecha y next */
 
+.calendar__prev, .calendar__next {
     /*#C7F464 color de las flechitas */
     color: #000;
     cursor: pointer;
@@ -56,6 +68,7 @@
 .calendar__next {
     margin-left: auto; 
 }
+/*---------------------------------------------------*/
 .calendar__week{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -89,16 +102,64 @@
 }
 .calendar__last-days {
     opacity: .3; 
-} 
-.agenda{
-    padding:50px;
-    display: flex;
-    grid-area: leftSide;
-    background: #ddd;
-    border-radius: 10%;
-    width: 100%;
 }
-.footer{ 
-    grid-area: footer; 
+
+@media screen and (max-width:732px){
     
 }
+
+.agenda{
+    max-width: 400px;
+    padding:50px;
+    display: flex;
+    
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+}
+
+#agenda-form {
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.avatar {
+    margin-top: 10px;
+}
+
+
+.archivo {
+    background-color: #3cc93f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+
+.archivo:hover {
+    background-color: #33a936;
+}
+
