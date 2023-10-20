@@ -2,7 +2,7 @@ const validacion1={
     validacion:""
 }
 const validacion =document.querySelector('#validacion')
-const header = document.querySelector('.ContenidoPrincipalArte1--hijos--CodigoAcceso');
+const header = document.querySelector('.ContenidoPrincipalArte2--hijos');
 const boton1 = document.querySelector('.botonenviarvalidacion')
 function usuarioaceptado(mensaje){
     //creamos una variable donde va a ser que pongamos el texto
