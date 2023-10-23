@@ -23,7 +23,10 @@
     <main class="ContenidoPrincipalCursoAlumno">
         <div class="ContenidoPrincipalCursoAlumno--Tareas barraslaterales" >
             <div>
-                <img src="/img/Curso1Arte.jpg" alt="">
+                <picture>
+                    <source loading="lazy" srcset="webp/Curso1Arte.webp" type="image/webp">
+                    <img loading="lazy" src="img/Curso1Arte.jpg" alt="">
+                </picture>
             </div>
             <div>
                 <div>
@@ -31,7 +34,7 @@
                 </div>
                 <div class="Mensajes_Del_Curso">
                     <ul>
-                        <li><a href="#">Actividades</a></li>
+                        <li><a href="visaprofesor.php">Agenda</a></li>
                         <li><a href="#">Mensajes</a></li>
                         <li><a href="participantes.php">Participantes</a></li>
                     </ul>
@@ -41,18 +44,26 @@
         </div>
         <div class="ContenidoPrincipalCursoAlumno--Actividades">
             <div>
-                <h3>Actividades por realizar</h3>
+                <h3>Horario de asesorias</h3>
             </div>
             <div>
                 <ul>
-                    <li><a href="#">Urbanismo</a></li>
-                    <li><a href="#">Habilidades Creativas</a></li>
+                    <li>Lunes</li>
+                    <p>8:00am - 9:00am</p>
+                    <li>Martes</li>
+                    <p>9:00am - 10:00am</p>
+                    <li>Miercoles</li>
+                    <p>9:00am - 10:00am</p>
+                    <li>Jueves</li>
+                    <p>9:00am - 10:00am</p>
+                    <li>Viernes</li>
+                    <p>1:00pm - 2:00pm</p>
                 </ul>
             </div>
         </div>
         <div class="ContenidoPrincipalCursoAlumno--ActividadesVencer barraslaterales">
             <div>
-                <h3>Actividades cerca de vencimiento</h3>
+                <h3>Actividades para reforzar el conocimiento</h3>
             </div>
             <div>
                 <ul>
@@ -60,10 +71,22 @@
                     <li><a href="#">Actividad dibujo creativo</a></li>
                 </ul>
                 <p>Vencimiento: <span>25 de octubre</span></p>
+                <button type="button" id="BotonNotificacion12">Activar Recordatorios</button>
             </div>
         </div>
+    
     </main>
-   
+    <div>
+    <div class="LugarAsesoria">
+        <div>
+            <h2>Lugar de la asesoria</h2>
+        </div>
+    </div>
+    <div id="map"></div>
+    </div>
+    <script src="js/ubicacion.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
     <?php include 'vistas/footer.php'?>
+    <script src="js/recordatorio.js"></script>
 </body>
 </html>

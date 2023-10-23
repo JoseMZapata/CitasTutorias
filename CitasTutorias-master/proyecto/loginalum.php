@@ -32,10 +32,11 @@
       </div>
       
       <div class="registro">
-        <button type="submit">Log in</button>
+        <button type="submit">Iniciar Sesion</button>
       </div>
       <div class="cuenta">
-        <p>¿Olvidaste tu contraseña?</p>
+        <a href="contrasenia.php">¿Olvidaste tu contraseña?</a>
+        <a href="registro.php">Crear Cuenta</a>
       </div>
   </div>
     </form>

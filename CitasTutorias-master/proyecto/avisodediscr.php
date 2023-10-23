@@ -10,6 +10,9 @@
     <title>AVISO DE NO DISCRIMINACIÓN</title>
     <link rel="stylesheet" href="css/vistaalumno.css">
     <link rel="stylesheet" href="css/normalice.css">
+    <link rel="stylesheet" href="css/avisodepriv.css">
+
+    
 </head>
 <body>
     <?php include 'vistas/header.php'?>

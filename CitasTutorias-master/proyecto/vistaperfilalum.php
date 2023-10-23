@@ -22,7 +22,7 @@
             
         </div>
         <div class="HeaderVistaProfileImagen">
-            <a href="vistaalumno.html"><img class="ImagenLogo" src="/img/logo_png_blanco.png" alt=""></a>
+            <a href="vistaalumno.php"><img class="ImagenLogo" src="img/logo_png_blanco.png" alt=""></a>
         </div>
     </header>
     <div class="contenedor">

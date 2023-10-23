@@ -10,17 +10,18 @@
 body{
     font-family: 'Poppins',sans-serif;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
     height: 100vh;
-    padding: 16px;
+    
     background-color: var(--background);
 }
 .table-widget{
+    display: flex;
+    justify-content: center;
     border-radius: 16px;
     background-color: var(--table-background);
     padding: 24px;
+    margin: 40px;
     border: 2px solid var(--gray-background);
     box-shadow: 
     rgba(0,0,0,0.05) 0px 6px 24px 0px,
@@ -29,6 +30,12 @@ body{
     text-align: left;
     overflow-x:auto ;
 }
+.table-widget table{
+    max-width: fit-content;
+    border-collapse: collapse;
+}
+
+
 .table-widget caption{
     font-size: 1.12rem;
     font-weight: 700;
@@ -135,7 +142,7 @@ body{
 }
 .tag--marketing{
     background-color: #fff6e5;
-    color: #739FDC;
+    color: #F4BD50;
 }
 .table-widget{
     min-width: 80px;

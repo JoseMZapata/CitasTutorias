@@ -4,16 +4,16 @@
                 <div class="footer-links">
                     <h4>Citas de tutoria</h4>
                     <ul>
-                        <li><a href="./datecorp.php">¿Porque Date Corp?</a></li>
-                        <li><a href="./nosotrosdatecorp.php">Nosotros</a></li>
+                        <li class="lista"><a href="./datecorp.php">¿Porque Date Corp?</a></li>
+                        <li class="lista"><a href="./nosotrosdatecorp.php">Nosotros</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-links">
                     <h4>Privacidad</h4>
                     <ul>
-                        <li><a href="./avisodepriv.php">Aviso y privacidad</a></li>
-                        <li><a href="./avisodediscr.php">Aviso de no discriminacion</a></li>
+                        <li class="lista"><a href="./avisodepriv.php">Aviso y privacidad</a></li>
+                        <li class="lista"><a href="./avisodediscr.php">Aviso de no discriminacion</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">

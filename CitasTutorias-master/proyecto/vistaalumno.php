@@ -22,7 +22,7 @@
     <?php include 'vistas/header.php'?>
     <main class="ContenidoPrincipal">
         <div>
-            <h2 class="Titulo">Cursos Disponibles</h2>
+            <h2 class="Titulo">Asesorias Disponibles</h2>
         </div>
         <div class="Cursos"> 
             <div>
@@ -35,7 +35,7 @@
                         <h3>Aprender sobre el arte</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput"><a href="arte.php">Inscribirse</a></button>
+                        <button class="BotonInscribirseInput" type="button" id="BotonNotificacion"><a href="arte.php">Inscribirse</a></button>
                     </div>
                 </div>
                
@@ -49,7 +49,7 @@
                         <h3>Calculo Diferencial</h3>        
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput" ><a href="calculodiferencial.php">Inscribirse</a></button>
+                        <button class="BotonInscribirseInput" ><a href="#">Inscribirse</a></button>
                     </div>
                 </div>
                 
@@ -143,5 +143,6 @@
         </div>
     </main>
     <?php include 'vistas/footer.php'?>
+    <script src="js/opciones.js"></script>
 </body>
 </html>
