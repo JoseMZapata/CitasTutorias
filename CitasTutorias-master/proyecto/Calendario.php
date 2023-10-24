@@ -42,44 +42,7 @@
                 <dt class="calendar__day calendar__item">Dom</dt>
             </dl>
             <ul class="calendar__dates" id="dates"></ul>
-        </div>
-        <div class="agenda">
-            <form id="agenda-form">
-                <h2>Agenda de Evento</h2>
-                <label for="evento">Evento:</label>
-                <input type="text" id="evento" name="evento" required>
-                <label for="fecha">Fecha de apertura:</label>
-                <input type="date" id="fecha-apertura" name="fecha-apertura" required>
-                <label for="fecha">Fecha de cierre:</label>
-                <input type="date" id="fecha-cierre" name="fecha-cierre" required>
-                <label for="materia">Materia:</label>
-                <select name="materia" id="materia">
-                    <option disabled selected value="Materia">Seleccione una materia</option>
-                    <option value="Materia1">Arte</option>
-                    <option value="Materia2">Seguridad Industrial</option>
-                    
-                </select>
-                <label for="grupo">Grupo:</label>
-                <select name="grupo" id="grupo">
-                    <option value="Grupo A">Grupo A</option>
-                    <option value="Grupo B">Grupo B</option>
-                </select>
-                <div>
-                    <label for="desc">Descripción:</label>
-                    <textarea name="desc" id="desc" placeholder="Describe la tarea"></textarea>
-                </div>
-
-                <div class="avatar">
-                    <label for="avatar">&#x262d</label>
-                    <input type="file" name="avatar" id="avatar">
-                </div>
-                <div class="archivo">
-                    <button type="submit" class="btn-green">Guardar Evento</button>
-                </div>
-            </form>
-        </div>
-        
-        
+        </div>        
     </section>
     <div></div>
     <?php include 'vistas/footer.php'?>
