@@ -59,12 +59,10 @@
                 </div>
 
                 <div class="avatar">
-                    <label for="avatar">&#x262d</label>
                     <input type="file" name="avatar" id="avatar">
                 </div>
-                <div class="archivo">
-                    <button type="submit" class="btn-green">Guardar Evento</button>
-                </div>
+                <a href="#" class="btn"><button>Guardar evento</button></a>
+                
             </form>
         </div>
         
