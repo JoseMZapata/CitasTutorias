@@ -14,24 +14,6 @@
 <body>
     <?php include 'vistas/header.php'?>
     <section class="layout">
-        <div class="calendar">
-            <dl class="calendar__info">
-                <dt class="calendar__prev" id="prev-month">&#9664;</dt>
-                <dt class="calendar__month" id="month"></dt>
-                <dt class="calendar__year" id="year"></dt>
-                <dt class="calendar__next" id="next-month">&#9654;</dt>
-            </dl>
-            <dl class="calendar__week">
-                <dt class="calendar__day calendar__item">Lun</dt>
-                <dt class="calendar__day calendar__item">Mar</dt>
-                <dt class="calendar__day calendar__item">Mier</dt>
-                <dt class="calendar__day calendar__item">Juev</dt>
-                <dt class="calendar__day calendar__item">Vier</dt>
-                <dt class="calendar__day calendar__item">Sab</dt>
-                <dt class="calendar__day calendar__item">Dom</dt>
-            </dl>
-            <ul class="calendar__dates" id="dates"></ul>
-        </div>
         <div class="agenda">
             <form id="agenda-form">
                 <h2>Agenda de Evento</h2>
