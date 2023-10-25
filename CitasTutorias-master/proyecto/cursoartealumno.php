@@ -67,7 +67,7 @@
             </div>
             <div>
                 <ul>
-                    <li><a href="#">Investigacion sobre tecnicas de dibujo</a></li>
+                    <li><a href="calendarioprofesor.php">Investigacion sobre tecnicas de dibujo</a></li>
                     <li><a href="#">Actividad dibujo creativo</a></li>
                 </ul>
                 <p>Vencimiento: <span>25 de octubre</span></p>
@@ -84,9 +84,10 @@
     </div>
     <div id="map"></div>
     </div>
+    <script src="js/recordatorio.js"></script>
     <script src="js/ubicacion.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
     <?php include 'vistas/footer.php'?>
-    <script src="js/recordatorio.js"></script>
+    
 </body>
 </html>

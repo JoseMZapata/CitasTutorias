@@ -35,7 +35,7 @@
                         <h3>Aprender sobre el arte</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput" type="button" id="BotonNotificacion"><a href="arte.php">Inscribirse</a></button>
+                        <button class="BotonInscribirseInput" type="button" id="BotonNotificacion"><a href="arte.php">Ver</a></button>
                     </div>
                 </div>
                
@@ -49,7 +49,7 @@
                         <h3>Calculo Diferencial</h3>        
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput" ><a href="#">Inscribirse</a></button>
+                        <button class="BotonInscribirseInput" ><a href="#">Ver</a></button>
                     </div>
                 </div>
                 
@@ -64,7 +64,7 @@
                         <h3>Teoria sobre negocios</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput"><a href="#">Inscribirse</a></button>
+                        <button class="BotonInscribirseInput"><a href="#">Ver</a></button>
                     </div>
                 </div>
                 
@@ -76,7 +76,7 @@
                         <h3>Habilidades Culturales</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput" ><a href="#">Inscribirse</a></button>
+                        <button class="BotonInscribirseInput" ><a href="#">Ver</a></button>
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@
                         <h3>Historia de Mexico</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput"><a href="#">Inscribirse</a></button>
+                        <button class="BotonInscribirseInput"><a href="#">Ver</a></button>
                     </div>
                 </div>
                 
@@ -99,7 +99,7 @@
                         <h3>Ingles V</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput"><a href="#">Inscribirse</a></button>
+                        <button class="BotonInscribirseInput"><a href="#">Ver</a></button>
                     </div>
                 </div>
                 
@@ -111,7 +111,7 @@
                         <h3>Arte Contemporaneo</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput"><a href="#">Inscribirse</a></button>
+                        <button class="BotonInscribirseInput"><a href="#">Ver</a></button>
                     </div>
                 </div>
                 
@@ -123,7 +123,7 @@
                         <h3>Quimica Analitica</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput"><a href="#">Inscribirse</a></button>
+                        <button class="BotonInscribirseInput"><a href="#">Ver</a></button>
                     </div>
                 </div>
                 
@@ -135,7 +135,7 @@
                         <h3>Seguridad Industrial</h3>
                     </div>
                     <div class="BotonInscribirse">
-                        <button class="BotonInscribirseInput"><a href="#">Inscribirse</a></button>
+                        <button class="BotonInscribirseInput"><a href="#">Ver</a></button>
                     </div>
                 </div>
                 

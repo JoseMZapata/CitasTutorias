@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/Login_alum.css">
   <title>Login alumno</title>
+  
 </head>
 <body>
   <div class="fondo">
@@ -36,7 +37,6 @@
       </div>
       <div class="cuenta">
         <a href="contrasenia.php">¿Olvidaste tu contraseña?</a>
-        <a href="registro.php">Crear Cuenta</a>
       </div>
   </div>
     </form>

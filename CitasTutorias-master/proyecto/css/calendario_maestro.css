@@ -1,3 +1,13 @@
+.layout {
+    display: grid;
+    grid:
+      "header header header" auto
+      "leftSide body ." 1fr
+      "footer footer footer" auto
+      / auto 1fr auto;
+    gap: 8px;
+}
+
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box; 
@@ -6,18 +16,29 @@
     text-align: center;
     color: #444; 
 }
+.layout{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 5px;
+}
 
+
+.agenda{
+    grid-row: 2/3;
+}
+.agenda{
+    grid-row: 1/2;
+}
 .calendar {
     background: #ddd;
-    width: 100%; /* Ocupan todo el ancho disponible en la columna */
+    width: 90%;
+    max-width: 700px;
+    margin: 1em auto;
     padding: .5em 0;
     box-shadow: 0 2px rgb(0,0,0,0.1);
     border-radius: 10px;
+    margin-top: 0;
     height: 23rem;
-    margin-right:auto;
-    text-align: left;
-    grid-template-columns: repeat(2, 1fr);
-    
 }
 .calendar__info {
     display: -webkit-box;
@@ -83,28 +104,20 @@
     opacity: .3; 
 }
 
-@media screen and (min-width: 768px) {
-    .layout {
-        grid-template-columns: 1fr 1fr; /* Dos columnas en pantallas más grandes */
-    }
-
-    .calendar, .agenda {
-        width: auto; /* Restaura el ancho predeterminado en dos columnas */
-    }
-
-    .calendar {
-        max-width: 700px; /* Ajusta el ancho máximo del calendario si es necesario */
-    }
-
+@media screen and (max-width:732px){
+    
 }
 
 .agenda{
     max-width: 400px;
+    padding:50px;
     display: flex;
+    
     background-color: #f4f4f4;
     border: 1px solid #ccc;
     border-radius: 5px;
-    
+    width: 100%;
+    padding: 20px;
 }
 
 #agenda-form {
@@ -115,63 +128,38 @@ label {
     font-weight: bold;
 }
 
-.agenda input[type="text"],
-.agenda input[type="date"],
-.agenda select,
-.agenda textarea {
+input[type="text"],
+input[type="date"],
+select,
+textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-
+textarea {
+    height: 100px;
+}
 
 .avatar {
     margin-top: 10px;
 }
 
 
-.agenda .btn button {
+.archivo {
     background-color: #3cc93f;
     color: white;
-    font-weight: 700;
-    padding: 9px 25px;
+    padding: 10px 20px;
     border: none;
-    border-radius: 50px;
-    box-shadow: #1b3039;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+    border-radius: 5px;
     margin-top: 20%;
     margin-left: 20%;
 }
-.agenda .btn button:hover {
+
+
+.archivo:hover {
     background-color: #33a936;
-    transform: scale(1.1);
 }
-
-.participantes button{
-    background-color: #005187;
-    color:white;
-    cursor:pointer;
-    
-
-
-}
-
-
-/*------------------------------------------------------------------*/
-/*Responsivo*/
-.layout {
-    display: grid;
-    grid-template-columns: 1fr; /* En una sola columna en pantallas pequeñas */
-    gap: 10px;
-}
-
-.calendar, .agenda, .barra{
-    width: 100%; /* Ocupan todo el ancho disponible en la columna */
-}
-
-/*------------------------------------------------------------------*/
 
