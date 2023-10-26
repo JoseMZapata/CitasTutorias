@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/vistaalumno.css">
     <link rel="stylesheet" href="css/normalice.css">
-    <title>Calendario Vista_Profesor</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <?php include 'vistas/header.php' ?>
+
 
 </head>
 
@@ -19,7 +20,6 @@
 <body>
     <section class="layout">
         <div class="cabeza">
-            <h1>Citas Agendadas</h1>
         </div>
         <nav calss></nav>
         <div class="calendar">
@@ -49,20 +49,28 @@
                     <th>Días Agendados</th>
                 </tr>
                 <tr>
-                    <td>Programación Web</td>
-                    <td>13 y 21</td>
-                </tr>
+                    <td><label for="cars"><a href="arte.php">Artes</a></label>
+
+                
+                <td>
+                <select id="cars">
+                <option value="volvo">25 de Septiembre</option>
+                <option value="saab">30 de Octubre</option>
+                <option value="opel">1 de Diciembre</option>
+                <option value="audi">10 de Diciembre </option>
+                </select>
+                </td>
+                
                 <tr>
-                    <td>Diseño Web</td>
-                    <td>9</td>
-                </tr>
-                <tr>
-                    <td>Base de Datos</td>
-                    <td>5 y 16</td>
-                </tr>
-                <tr>
-                    <td>Calculo</td>
-                    <td>28</td>
+                    <td> <a href="calculodiferencial.php">Cálculo</a></td>
+                    <td>
+                <select id="cars">
+                <option value="volvo">1 de Septiembre</option>
+                <option value="saab">28 de Octubre</option>
+                <option value="opel">19 de Diciembre</option>
+                <option value="audi">20 de Diciembre </option>
+                </select>
+                </td>
                 </tr>
             </table>
         </div>
