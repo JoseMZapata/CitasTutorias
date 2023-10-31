@@ -72,19 +72,18 @@ img{
     border-radius: 5px;
 }
 .botonbusqueda{
-    background-color: red;
+    position: relative;
     width: 30px;
     height: 32px;
-    top: 0;
-    right: 0;
+    top: 1px;
+    right: 35px;
     text-align: center;
-    border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
 }
 .fa-search{
     margin: 5px;
-    color: white;
+    color: #8A8A8A;
 }
 .HeaderPrincipal--Navegacion img{
     width: 100px;
