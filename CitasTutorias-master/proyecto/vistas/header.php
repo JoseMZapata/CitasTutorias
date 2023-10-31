@@ -13,7 +13,7 @@
         </div>
         <div class="HeaderPrincipal--Navegacion comun">
             <button class="link1" id="botonopciones" type="submit">
-                <center><img src="img/nuevoicono.png" alt="ImagenPerfil"></center>
+                <center><img class="Imagenprofile" src="img/icons8-account-64.png" alt="ImagenPerfil"></center>
             </button>
             
         </div>
@@ -36,4 +36,3 @@
         </div>
     </header>
     <script src="js/opciones.js"></script>
-

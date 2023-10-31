@@ -11,17 +11,17 @@
     <link rel="stylesheet" href="css/normalice.css">
 </head>
 <body>
-    <main class="ContenidoPrincipalCalculodif1">
-        <div class="ContenidoPrincipalCalculodif11">
-            <div class="ContenidoPrincipalCalculoDif1--hijos">
+    <main class="ContenidoPrincipalArte">
+        <div class="ContenidoPrincipalArte1">
+            <div class="ContenidoPrincipalArte1--hijos">
                 <div>
                     <img loading="lazy" src="./img/imagenesvistaalumno/Imagen2.jpeg" alt="Calculo Diferencial">
                 </div>
                 <div>
-                    <button class="BotonInscribirse__CalculoDif">Inscribirse</button>
+                    <button class="BotonInscribirse__Arte">Inscribirse</button>
                 </div>
             </div>
-            <div class="ContenidoPrincipalCalculoDif1--hijos">
+            <div class="ContenidoPrincipalArte1--hijos">
                 <div>
                     <h2>Calculo Diferencial</h2>
                 </div>
@@ -34,17 +34,17 @@
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero vitae delectus, labore similique, illum distinctio nihil</p>
                 </div>
-                <div class="ContenidoPrincipalCalculodif1--hijos--Profesor">
+                <div class="ContenidoPrincipalArte1--hijos--Profesor">
                     <div>
-                        <h3 class="ContenidoPrincipalCalculoDif1--hijos--Profesor__Titulo">Profesor:</h3>
+                        <h3 class="ContenidoPrincipalArte1--hijos--Profesor__Titulo">Profesor:</h3>
                     </div>
                     <div>
-                        <p class="ContenidoPrincipalCalculoDif1--hijos--Profesor__profesor">Josue Valles Ruiz</p>
+                        <p class="ContenidoPrincipalArte1--hijos--Profesor__profesor">Josue Valles Ruiz</p>
                     </div>
                 </div>
-                <div class="ContenidoPrincipalCalculoDif1--hijos--CodigoAcceso">
+                <div class="ContenidoPrincipalArte1--hijos--CodigoAcceso">
                     <label for="codigo">Codigo de Acceso</label>
-                    <input type="text" placeholder="Codigo" id="codigo" class="ContenidoPrincipalCalculoDif1--hijos--CodigoAcceso__Codigo">
+                    <input type="text" placeholder="Codigo" id="codigo" class="ContenidoPrincipalArte1--hijos--CodigoAcceso__Codigo">
                 </div>
             </div>
         </div>
