@@ -13,7 +13,7 @@
         </div>
         <div class="HeaderPrincipal--Navegacion comun">
             <button class="link1" id="botonopciones" type="submit">
-                <center><img src="img/icons8-usuario-de-genero-neutro-32.svg" alt="ImagenPerfil"></center>
+                <center><img src="img/icons8-user-48.svg" alt="ImagenPerfil"></center>
             </button>
             
         </div>
