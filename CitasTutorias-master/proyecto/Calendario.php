@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/calendario_maestro.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="css/vistaalumno.css">
+    <link rel="stylesheet" href="css/calendarioprof.css">
     <link rel="stylesheet" href="css/barraprofesor.css">
     <title>Calendario Vista_Profesor</title>
 </head>
